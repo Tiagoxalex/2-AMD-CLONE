@@ -42,7 +42,7 @@ body{
     width: 15rem;
 }
 .fundo {
-
+    background-color: black;
     width: 100%;
 }
 .fundo2 {
@@ -85,7 +85,9 @@ body{
     height: .15rem;
 }
 .rocmpai{
-    margin-left: 2rem;
+    background-color: black;
+    width: 100%;
+    padding-left: 2rem;
     display: flex;
 }
 .rocm{
@@ -127,6 +129,7 @@ body{
     justify-items: center;
 }
 .folder {
+    background-color: #000;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -178,15 +181,15 @@ body{
 }
 
 .third-tab{
-    background-color: aqua;
-    height: 100vh;
+    background: linear-gradient(to bottom,black,#181818,black );
+    height: 90vh;
     padding-top: 7rem;
 }
 .third-tab-wrapper{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100%;
+    height: 100%;   
 }
 .gliders{
     margin-top: 1.5rem;
@@ -199,7 +202,7 @@ h2{
     color: white;
 }
 .thrird-tab-wrapper-background{
-    display: flex;
+    display: inline;
     background-repeat: no-repeat;
     background-image: url(https://www.amd.com/content/dam/amd/en/images/backgrounds/solutions/2002800-ai-solutions-color-tendrills.jpg);
     background-size: cover;
@@ -220,6 +223,96 @@ h2{
     color: white;
 }
 .bars{  
-    margin-left: 4rem;
+    margin-left: 2rem;
     color: gray;
+}
+.fourth-tab-wrapper{
+    background: transparent;
+    height: 100vh;
+    width: 100%;
+}
+.thrird-tab-wrapper-background-text{
+    padding-left: 6rem;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: white;
+}
+.thrird-tab-wrapper-background-text:hover{
+    text-decoration: underline;
+}
+.thrird-tab-wrapper-background-subtext{
+    padding: 2rem 0 2rem 6rem;
+    font-weight: 500;
+    color: white;
+}
+.thrird-tab-wrapper-background-anchor{
+    padding-left: 6rem;
+    text-decoration: none;
+    color: white;
+}
+.fourth-tab-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.fourth-tab-wrapper-background-title{
+    color: white;            
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+.fourth-tab-wrapper-background-subtitle{
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+.fourth-tab-wrapper-background-learn-more{
+    padding: 1.08rem 2.1rem;
+    background: linear-gradient(to right,#1b1b1b,#4c4c4c);
+    box-shadow: -1px 1px 0 #000, inset -1px 1px 0 hsla(0,0%,100%,.2);
+    border-radius: 3px;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+.fixed-img{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: -10;
+}
+.fith-tab{
+    background-color: black;
+    height: 100vh;
+}
+.fith-tab-first-img{
+    margin-left: 6rem;
+    color: white;
+    height: 26rem;
+    width: 27rem;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://www.amd.com/content/dam/amd/en/images/photography/case-study/1913654-truecar-case-study.jpg);
+}
+.fith-tab-second-img{
+    background-image: url(https://www.amd.com/content/dam/amd/en/images/photography/case-study/1913654-pixomondo-case-study.jpg);
+    height: 10rem;
+    width: 10rem;
+}
+.fith-tab-third-img{
+    background-image: url(https://www.amd.com/content/dam/amd/en/images/photography/case-study/1913654-cornell-university-case-study.jpg);
+    height: 10rem;
+    width: 10rem;
+}
+.fith-tab-fourth-img{
+    background-image: url(https://www.amd.com/content/dam/amd/en/images/photography/case-study/1913654-clarius-case-study.jpg);
+    height: 10rem;
+    width: 10rem;
+}
+h3{
+    font-size: 2rem;
+    padding-top: 4rem;
+    padding-left: 6rem;
+    color: white;
 }
