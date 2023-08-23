@@ -14,6 +14,7 @@ body{
 
 }
 .nav-bar{
+    position: absolute;
     display: flex;
     align-items: center;
 }
@@ -42,6 +43,7 @@ body{
     width: 15rem;
 }
 .fundo {
+    padding-top: 5rem;
     background-color: black;
     width: 100%;
 }
@@ -253,9 +255,6 @@ h2{
 }
 .fourth-tab-wrapper{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 .fourth-tab-wrapper-background-title{
     color: white;            
@@ -311,8 +310,37 @@ h2{
     width: 10rem;
 }
 h3{
+    margin-bottom: 1rem;
     font-size: 2rem;
     padding-top: 4rem;
     padding-left: 6rem;
     color: white;
+}
+.fith-tab-first-img-title{
+    padding-top: 1.2rem;
+    padding-left: 2.5rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.fith-tab-first-img-text{
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 1.5rem 0 2.5rem 2.5rem;
+}
+.fith-tab-first-img-button{
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 2px;
+    border: white solid 1px;
+    color: white;
+    margin: 1rem 0 1rem 2.5rem;
+    cursor: pointer;
+    background: transparent;
+    height: 3.5rem;
+    width: 15rem;
+    font-weight: 700;
+}
+.fith-tab-first-img-button:hover{
+    color: black;
+    background-color: white;
 }
