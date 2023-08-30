@@ -255,8 +255,12 @@ h2{
 }
 .fourth-tab-wrapper{
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .fourth-tab-wrapper-background-title{
+    margin-top: 15rem;
+    text-align: center;
     color: white;            
     font-size: 2.8rem;
     font-weight: 700;
@@ -281,33 +285,10 @@ h2{
     position: fixed;
     z-index: -10;
 }
-.fith-tab{
+.fifth-tab{
+    display: flex;
     background-color: black;
-    height: 100vh;
-}
-.fith-tab-first-img{
-    margin-left: 6rem;
-    color: white;
-    height: 26rem;
-    width: 27rem;
-    background-size: cover;
-    background-position: center;
-    background-image: url(https://www.amd.com/content/dam/amd/en/images/photography/case-study/1913654-truecar-case-study.jpg);
-}
-.fith-tab-second-img{
-    background-image: url(https://www.amd.com/content/dam/amd/en/images/photography/case-study/1913654-pixomondo-case-study.jpg);
-    height: 10rem;
-    width: 10rem;
-}
-.fith-tab-third-img{
-    background-image: url(https://www.amd.com/content/dam/amd/en/images/photography/case-study/1913654-cornell-university-case-study.jpg);
-    height: 10rem;
-    width: 10rem;
-}
-.fith-tab-fourth-img{
-    background-image: url(https://www.amd.com/content/dam/amd/en/images/photography/case-study/1913654-clarius-case-study.jpg);
-    height: 10rem;
-    width: 10rem;
+    height: 150vh;
 }
 h3{
     margin-bottom: 1rem;
@@ -316,18 +297,30 @@ h3{
     padding-left: 6rem;
     color: white;
 }
-.fith-tab-first-img-title{
+.fifth-tab-first-column{
+    display: flex;
+}
+.fifth-tab-first-img{
+    margin-left: 6rem;
+    color: white;
+    height: 26rem;
+    width: 27rem;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://www.amd.com/content/dam/amd/en/images/photography/case-study/1913654-truecar-case-study.jpg);
+}
+.fifth-tab-first-img-title{
     padding-top: 1.2rem;
     padding-left: 2.5rem;
     font-weight: 600;
     font-size: 1.5rem;
 }
-.fith-tab-first-img-text{
+.fifth-tab-first-img-text{
     font-size: 1.1rem;
     font-weight: 500;
     padding: 1.5rem 0 2.5rem 2.5rem;
 }
-.fith-tab-first-img-button{
+.fifth-tab-first-img-button{
     text-align: center;
     font-size: 1rem;
     border-radius: 2px;
@@ -340,7 +333,132 @@ h3{
     width: 15rem;
     font-weight: 700;
 }
-.fith-tab-first-img-button:hover{
+.fifth-tab-first-img-button:hover{
     color: black;
     background-color: white;
+}
+.fifth-tab-second-img{
+    background-image: url(https://www.amd.com/content/dam/amd/en/images/photography/case-study/1913654-pixomondo-case-study.jpg);
+    background-size: cover;
+    margin-left: 3rem;
+    height: 26rem;
+    width: 42rem;
+}
+.fifth-tab-second-img-text{
+    color: white;
+    padding-top: 1.2rem;
+    padding-left: 2.5rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.fifth-tab-second-img-subtext{
+    color: white;
+    padding-top: 1.2rem;
+    padding-left: 2.5rem;
+}
+.fifth-tab-second-img-button{
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 2px;
+    border: white solid 1px;
+    color: white;
+    margin: 10rem 0 1rem 2.5rem;
+    cursor: pointer;
+    background: transparent;
+    height: 3.5rem;
+    width: 15rem;
+    font-weight: 700;   
+}
+.fifth-tab-second-img-button:hover{
+    color: black;
+    background-color: white;
+}
+.fifth-tab-second-column{
+    display: flex;
+}
+.fifth-tab-third-img{
+    background-image: url(https://www.amd.com/content/dam/amd/en/images/photography/case-study/1913654-cornell-university-case-study.jpg);
+    background-size: cover;
+    margin-top: 1.5rem;
+    margin-left: 6rem;
+    color: white;
+    height: 17rem;
+    width: 42rem;
+}
+.fifth-tab-third-img-text{
+    color: white;
+    padding-top: 1.2rem;
+    padding-left: 2.5rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.fifth-tab-third-img-subtext{
+    color: white;
+    margin-top: 0.5rem;
+    padding-top: 1.2rem;
+    padding-left: 2.5rem;
+}
+.fifth-tab-third-img-button{
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 2px;
+    border: white solid 1px;
+    color: white;
+    margin: 2rem 0 1rem 2.5rem;
+    cursor: pointer;
+    background: transparent;
+    height: 3.5rem;
+    width: 15rem;
+    font-weight: 700; 
+}
+.fifth-tab-fourth-img{
+    margin-top: 1.5rem;
+    margin-left: 3rem;
+    background-image: url(https://www.amd.com/content/dam/amd/en/images/photography/case-study/1913654-clarius-case-study.jpg);
+    height: 17rem;
+    width: 27rem;
+}
+.fifth-tab-fourth-img-text{
+    color: white;
+    padding-top: 1.2rem;
+    padding-left: 2.5rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.fifth-tab-fourth-img-subtext{
+    color: white;
+    margin-top: 0.5rem;
+    padding-top: 1.2rem;
+    padding-left: 2.5rem;
+}
+
+.fifth-tab-fourth-img-button{
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 2px;
+    border: white solid 1px;
+    color: white;
+    margin: 2rem 0 1rem 2.5rem;
+    cursor: pointer;
+    background: transparent;
+    height: 3.5rem;
+    width: 15rem;
+    font-weight: 700; 
+}
+.sixth-tab{
+    background-color: white;
+height: 100%;
+width: 100%;
+}
+.sixth-tab-first-rectangle{
+background-image: url(https://www.amd.com/content/dam/amd/en/images/pr-feed/1186219.png);
+}
+.sixth-tab-second-rectangle{
+
+}
+.sixth-tab-third-rectangle{
+
+}
+.sixth-tab-fourth-rectangle{
+
 }
